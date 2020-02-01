@@ -1,0 +1,30 @@
+const quotes = [
+    'Tomara que vocês votem tão bem nas próximas eleições, como sabem votar no BBB!',
+    'Quando você olha no retrovisor da sua vida sempre vai descobrir um professor que foi fundamental a sua formação.',
+    'Ser famoso na internet é igual a ser rico no banco imobiliário.',
+    'Ô loco, bixo! Brincadeira! Esta fera aí, meu!',
+    'O mundo é legal porque é uma bola. Se fosse duas seria um saco.',
+    'Opção sexual não é coisa de novela.',
+    'Estou mais sozinho que goleiro na hora do pênalti.',
+    'O galinha de hoje é o corno de amanhã.',
+    'Sou o único apresentador do mundo que fala os nomes dos músicos.',
+    'Talento e magnetismo não se compram na esquina.',
+    'Quem sabe faz ao vivo!',
+    'Olha o tamanho da criança.',
+    'Você destruiu meu ovo!!',
+    'Um exemplo de cidadão brasileiro!',
+    'Olha o que essa anta faz!',
+    'Fazer o que essa fera faz não é pra qualquer um não!',
+    'Eita!',
+    'Erroooooou!',
+    'Abrindo o saco de risadas.',
+    'Tanto no pessoal como no profissional.',
+    'E agora, mais do que nunca...',
+    'Ô loco, meu!!',
+    'Brincadeira, essa fera!',
+    'Igual o teu marido aí no sofá deitado e roncando com a lata de cerveja na mão coçando.',
+    'Logo após os reclames do plin-plin…',
+    'Se vira nos trinta!'
+]
+
+export default quotes
