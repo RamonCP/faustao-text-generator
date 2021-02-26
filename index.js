@@ -8,8 +8,9 @@ export default class App {
     generateParagraph(number){
         let paragraph = ""
 
-        for (let c = 0; c <= number; c++) {
+        for (let c = 0; c < number; c++) {
             let _randomIndex = this.randomIndex(this.lineParagraph, quotes.length)
+            paragraph += paragraph.length > 0 ? " " : ""
             paragraph += quotes[_randomIndex]
         }
 

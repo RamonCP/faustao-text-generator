@@ -20,16 +20,15 @@ body {
 }
 
 .banner h1 {
-    font-size: 82px;
+    font-size: 5rem;
     font-weight: 500;
     color: #fff;
     letter-spacing: 5px;
 }
 
 .banner h2 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #fff;
+    font-size: 2rem;
+    color: #9dcfe8; /* #518faf */ 
     letter-spacing: 2px;
 }
 
@@ -66,7 +65,7 @@ body {
 }
 
 .field .container .input-field .input h2 {
-    font-size: 22px;
+    font-size: 1.4rem;
     color: #fff;
 }
 
@@ -77,7 +76,7 @@ body {
     padding: 0 5px 0 15px;
     background: #22272c;
     color: #fff;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: 'Roboto';
 }
 
@@ -88,7 +87,8 @@ body {
     background: #12a577;
     color: #fff;
     font-family: 'Roboto';
-    font-size: 19px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .field .container .input-field textarea {
@@ -98,6 +98,8 @@ body {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
 .custom-scroll::-webkit-scrollbar-track{
