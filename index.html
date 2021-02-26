@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-
+    <title>Faustão Text Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-
-    <input type="number" id="paragraph" value="0" min="0">
-    <button id="generate">Gerar</button>
-
-    <br><br>
-    <textarea id="textGenerated"></textarea>
+    <section class="banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Faustão</h1>
+            <h2>Text Generator</h2>
+        </div>
+    </section>
+    <section class="field">
+        <div class="container">
+            <div class="input-field">
+                <div class="input">
+                    <h2>Gerar</h2>
+                    <input type="number" id="paragraph" value="0" min="0">
+                    <h2>parágrafos</h2>
+                    <button id="generate">Gerar</button>
+                </div>
+                
+                <br><br>
+                <textarea id="textGenerated" class="custom-scroll"></textarea>
+            </div>
+        </div>
+    </section>
+    
 
     <script type="module" src="index.js"></script>
     <script type="module" src="script.js"></script>
-
 </body>
 </html>
