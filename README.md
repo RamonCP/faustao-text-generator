@@ -16,7 +16,6 @@ Open command line in project's directory and run:
 ```bash
 $ liver-server
 ```
-<br />
 If prefer, like me, you can install Live Server extension in your VSCode and run more easily.<br />
 
 Project still in development, you can see in: https://clever-shannon-f4c72e.netlify.app/
