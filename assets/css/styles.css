@@ -53,6 +53,13 @@ body {
 .field .container .input-field {
     margin: 0 auto;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.field .container .input-field > * {
+    /* flex: 1 1 33%; */
 }
 
 .field .container .input-field .input {
@@ -61,7 +68,7 @@ body {
 }
 
 .field .container .input-field .input > * {
-    margin-right: 10px;
+    margin-right: 21px;
 }
 
 .field .container .input-field .input h2 {
@@ -80,7 +87,7 @@ body {
     font-family: 'Roboto';
 }
 
-.field .container .input-field .input button {
+.field .container .input-field button {
     border: none;
     height: 30px;
     padding: 0 40px;
@@ -91,15 +98,27 @@ body {
     cursor: pointer;
 }
 
+.field .container .input-field button.copy {
+    margin-top: 25px;
+    display: flex;
+    height: 41px;
+    align-items: center;
+}
+
+.field .container .input-field button.copy svg {
+    font-size: 22px;
+}
+
 .field .container .input-field textarea {
     height: 300px;
     resize: none;
     width: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 27px 27px 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
+    margin-top: 25px;
 }
 
 .custom-scroll::-webkit-scrollbar-track{

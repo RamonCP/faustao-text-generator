@@ -6,15 +6,22 @@ export default class App {
     }
 
     generateParagraph(number){
+        let text = ""
         let paragraph = ""
 
         for (let c = 0; c < number; c++) {
-            let _randomIndex = this.randomIndex(this.lineParagraph, quotes.length)
-            paragraph += paragraph.length > 0 ? " " : ""
-            paragraph += quotes[_randomIndex]
+
+            while(paragraph.length < 325) {
+                let _randomIndex = this.randomIndex(this.lineParagraph, quotes.length)
+                paragraph += paragraph.length > 0 ? " " : ""
+                paragraph += quotes[_randomIndex] ? quotes[_randomIndex] : ""
+            }
+
+            text +=  `${paragraph} \n\n `
+            paragraph = ""
         }
 
-        return paragraph
+        return text
     }
 
     randomIndex(min, max){
