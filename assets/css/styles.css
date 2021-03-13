@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 90vw;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -163,4 +163,27 @@ footer ul li a:hover {
 .custom-scroll::-webkit-scrollbar-thumb{
     border-radius: 6px;
     background-color: #AFAFAF;
+}
+
+
+@media screen and (max-width: 963px) {
+    .field .container .input-field {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .field {
+        padding: 40px 0;
+    }
+    .field .container .input-field {
+        width: 90vw;
+    }
+    .field .container .input-field .input input {
+        height: 38px;
+        font-size: 1.4rem;
+    }
+    .field .container .input-field button {
+        margin-top: 25px;
+    }
 }
