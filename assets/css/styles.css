@@ -89,7 +89,7 @@ body {
 
 .field .container .input-field button {
     border: none;
-    height: 30px;
+    height: 41px;
     padding: 0 40px;
     background: #12a577;
     color: #fff;
@@ -101,12 +101,12 @@ body {
 .field .container .input-field button.copy {
     margin-top: 25px;
     display: flex;
-    height: 41px;
     align-items: center;
 }
 
 .field .container .input-field button.copy svg {
     font-size: 22px;
+    margin-right: 10px;
 }
 
 .field .container .input-field textarea {
