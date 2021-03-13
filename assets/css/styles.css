@@ -121,6 +121,37 @@ body {
     margin-top: 25px;
 }
 
+footer {
+    padding: 35px 0;
+    text-align: center;
+    background: #1e2e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+footer ul li {
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+footer ul li a svg {
+    font-size: 20px;
+}
+
+footer ul li a:hover {
+    color: #50fa7b;
+}
+
 .custom-scroll::-webkit-scrollbar-track{
     border-radius: 6px;
     background-color: #F5F5F5;
