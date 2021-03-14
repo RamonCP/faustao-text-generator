@@ -76,6 +76,10 @@ body {
     color: #fff;
 }
 
+.field .container .input-field .input h2:last-child {
+    margin: 0;
+}
+
 .field .container .input-field .input input {
     height: 30px;
     border: none;
@@ -173,6 +177,12 @@ footer ul li a:hover {
 }
 
 @media screen and (max-width: 576px) {
+    .banner h1 {
+        font-size: 4rem;
+    }
+    .banner h2 {
+        font-size: 1.7rem;
+    }
     .field {
         padding: 40px 0;
     }
