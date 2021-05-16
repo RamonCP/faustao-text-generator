@@ -1,6 +1,6 @@
 # Faustão Text Generator
 
-A Vanilla JS text generator of the best brazilian showman. I made this project to fun and to test my knowledge in Javascript.
+A Vanilla JS text generator of the iconic brazilian showman. I made this project to fun and to test my knowledge in Javascript.
 
 I got inspired to make this project after see the <a href="https://github.com/diegofelipece/mussum-ipsum/" target="_blank">Mussum Ipsum</a> and <a href="https://github.com/florinpop17/app-ideas/" target="_blank">App Ideas Collection</a>
 
