@@ -14,7 +14,7 @@ $ npm install -g live-server
 ```
 Open command line in project's directory and run:
 ```bash
-$ liver-server
+$ live-server
 ```
 If prefer, like me, you can install Live Server extension in your VSCode and run more easily.<br />
 
